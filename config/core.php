@@ -358,10 +358,10 @@ return [
      * php settings
      */
     'php_settings' => [
-        'upload_max_filesize' => '2',
-        'memory_limit' => '128',
-        'max_execution_time' => '30',
-        'post_max_size' => '2',
+        'upload_max_filesize' => '25',
+        'memory_limit' => '512',
+        'max_execution_time' => '300',
+        'post_max_size' => '356',
     ],
     'php_settings_unit' => [
         'upload_max_filesize' => 'M',
